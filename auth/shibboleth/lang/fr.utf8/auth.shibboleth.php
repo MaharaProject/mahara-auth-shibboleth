@@ -1,7 +1,6 @@
 <?php
 
 defined('INTERNAL') || die();
-require_once dirname(__FILE__) . '/../../lib.php';
 
 $string['about_aai'] = 'AAI';
 $string['login_switchaai'] = 'Login SWITCHaai';
@@ -28,36 +27,37 @@ $string['shibboleth_lastname'] = 'Champs Shibboleth pour le nom de famille';
 $string['shibboleth_email'] = 'Champs Shibboleth pour l\'adresse électronique';
 $string['shibboleth_student_id'] = 'Champs Shibboleth pour le matricule étudiant';
 
-$string[PluginAuthShibboleth::IS_ADMIN_FIELD . '_title'] = 'Administrateur du site';
-$string[PluginAuthShibboleth::IS_ADMIN_FIELD] = 'Champs Shibboleth';
-$string[PluginAuthShibboleth::IS_ADMIN_VALUE] = 'Valeur';
-$string[PluginAuthShibboleth::IS_ADMIN_REGEX] = 'Expression régulière';
+$string['shibboleth_is_admin_field_title'] = 'Administrateur du site';
+$string['shibboleth_is_admin_field'] = 'Champs Shibboleth';
+$string['shibboleth_is_admin_value'] = 'Valeur';
+$string['shibboleth_is_admin_regex'] = 'Expression régulière';
 
-$string[PluginAuthShibboleth::IS_STAFF_FIELD . '_title'] = 'Personnel du site';
-$string[PluginAuthShibboleth::IS_STAFF_FIELD] = 'Champs Shibboleth';
-$string[PluginAuthShibboleth::IS_STAFF_VALUE] = 'Valeur';
-$string[PluginAuthShibboleth::IS_STAFF_REGEX] = 'Expression régulière';
+$string['shibboleth_is_staff_field_title'] = 'Personnel du site';
+$string['shibboleth_is_staff_field'] = 'Champs Shibboleth';
+$string['shibboleth_is_staff_value'] = 'Valeur';
+$string['shibboleth_is_staff_regex'] = 'Expression régulière';
 
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_FIELD . '_title'] = 'Administrateur de l\'institution';
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_FIELD] = 'Champs Shibboleth';
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_VALUE] = 'Valeur';
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_REGEX] = 'Expression régulière';
+$string['shibboleth_institution_is_admin_field_title'] = 'Administrateur de l\'institution';
+$string['shibboleth_institution_is_admin_field'] = 'Champs Shibboleth';
+$string['shibboleth_institution_is_admin_value'] = 'Valeur';
+$string['shibboleth_institution_is_admin_regex'] = 'Expression régulière';
 
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_FIELD . '_title'] = 'Personnel du l\'institution';
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_FIELD] = 'Champs Shibboleth';
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_VALUE] = 'Valeur';
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_REGEX] = 'Expression régulière';
+$string['shibboleth_institution_is_staff_field_title'] = 'Personnel du l\'institution';
+$string['shibboleth_institution_is_staff_field'] = 'Champs Shibboleth';
+$string['shibboleth_institution_is_staff_value'] = 'Valeur';
+$string['shibboleth_institution_is_staff_regex'] = 'Expression régulière';
 
-$string[PluginAuthShibboleth::INSTITUTION_FIELD . '_title'] = 'Membre de l\'institution';
-$string[PluginAuthShibboleth::INSTITUTION_FIELD] = 'Champs Shibboleth';
-$string[PluginAuthShibboleth::INSTITUTION_VALUE] = 'Valeur';
-$string[PluginAuthShibboleth::INSTITUTION_REGEX] = 'Expression régulière';
+$string['shibboleth_institution_field_title'] = 'Membre de l\'institution';
+$string['shibboleth_institution_field'] = 'Champs Shibboleth';
+$string['shibboleth_institution_value'] = 'Valeur';
+$string['shibboleth_institution_regex'] = 'Expression régulière';
 
-$string[PluginAuthShibboleth::UPDATE_USER_DATA] = 'Mise à jour des données utilisateur';
-$string[PluginAuthShibboleth::REGISTRATION] = 'Enregistrement';
-$string[PluginAuthShibboleth::NOTIFY_SITE_ADMIN] = 'Notifier les administrateurs du site';
-$string[PluginAuthShibboleth::NOTIFY_INSTITUTION_ADMIN] = 'Notifier les administateurs de l\'institution';
+$string['shibboleth_update_user_data'] = 'Mise à jour des données utilisateur';
+$string['shibboleth_registration'] = 'Enregistrement';
+$string['shibboleth_notify_site_administrators'] = 'Notifier les administrateurs du site';
+$string['shibboleth_notify_institution_administrators'] = 'Notifier les administateurs de l\'institution';
 
+$string['shibboleth_create_active'] = 'Activer les nouveaux comptes';
 
 $string['new_users'] = 'Nouveaux utilisateurs';
 
@@ -77,12 +77,4 @@ $string['empty_registration'] = 'Vide';
 $string['course_registration'] = 'Cours';
 $string['account_inactive_message'] = 'Votre compte est désactivé';
 $string['site_closed'] = 'Le site web est fermé';
-
-
-
-
-
-
-
-
 ?>

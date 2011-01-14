@@ -8,5 +8,4 @@ $config->release = '1.0.0';
 $config->name = 'shibboleth';
 $config->requires_config = true;
 $config->requires_parent = false;
-
 ?>

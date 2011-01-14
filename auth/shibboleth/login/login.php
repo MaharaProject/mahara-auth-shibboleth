@@ -19,7 +19,9 @@ require_once dirname(__FILE__) .'/../../../init.php';
 require_once dirname(__FILE__) .'/../lib.php';
 
 //@for test remove !!!
-//$_SERVER['Shib-SwissEP-UniqueID'] = 'dd'. time();
+//$_SERVER['Shib-SwissEP-UniqueID'] = 'usr' . time() ;
+//$_SERVER['Shib-InetOrgPerson-givenName'] = 'Joe';
+//$_SERVER['Shib-Person-surname'] = 'Smith';
 
 $manager = new login_manager();
 $manager->process();

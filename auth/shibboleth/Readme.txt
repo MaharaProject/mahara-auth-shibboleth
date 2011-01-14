@@ -71,6 +71,16 @@ Installation is a multi steps process:
 		enter Shibboleth fields' name and values as required
 		click submit
 
+	- If needed copy the non english translations contained in the plugin lang folder to the mahara lang folder. That is copy
+
+            mahara/auth/shibboleth/lang/fr-utf8
+
+            to
+
+            maharadata/langpacks/auth/shibboleth/lang/fr-utf8
+
+          If you want to use the french translation.
+
 2. Shibboleth installation and configuration
 	Install Shibboleth on your web server. See http://shibboleth.internet2.edu/ for details on how to install Shibboleth
 	

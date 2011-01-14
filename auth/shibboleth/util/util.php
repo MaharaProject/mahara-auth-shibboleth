@@ -6,12 +6,12 @@
  * @param array $array
  * @param array $keys
  */
-function array_extract($array, $keys){
-	$result = array();
-	foreach($keys as $key){
-		$result[$key] = $array[$key];
-	}
-	return $result;
+function array_extract($array, $keys) {
+    $result = array();
+    foreach ($keys as $key) {
+        $result[$key] = $array[$key];
+    }
+    return $result;
 }
 
 ?>

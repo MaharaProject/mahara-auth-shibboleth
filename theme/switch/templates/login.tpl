@@ -11,7 +11,7 @@
 		<h3 style="margin-top:5px;margin-bottom:5px;"  >{str tag="internal_login" section="auth.shibboleth"}</h3>
 		<div id="loginform_container" >
 			<noscript><p>{str tag="javascriptnotenabled"}</p></noscript>
-		    {$login_form}
+		    {$login_form|safe}
 		</div>
 	</div>
 </div>

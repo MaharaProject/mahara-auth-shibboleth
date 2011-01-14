@@ -1,7 +1,6 @@
 <?php
 
 defined('INTERNAL') || die();
-require_once dirname(__FILE__) . '/../../lib.php';
 
 $string['about_aai'] = 'About AAI';
 $string['login_switchaai'] = 'Login SWITCHaai';
@@ -28,37 +27,37 @@ $string['shibboleth_lastname'] = 'Shibboleth field for Last Name';
 $string['shibboleth_email'] = 'Shibboleth field for Email';
 $string['shibboleth_student_id'] = 'Shibboleth field for Student Id';
 
-$string[PluginAuthShibboleth::CREATE_ACTIVE] = 'Activate new accounts';
+$string['shibboleth_create_active'] = 'Activate new accounts';
 
-$string[PluginAuthShibboleth::IS_ADMIN_FIELD . '_title'] = 'Site Admin Membership';
-$string[PluginAuthShibboleth::IS_ADMIN_FIELD] = 'Shibboleth field';
-$string[PluginAuthShibboleth::IS_ADMIN_VALUE] = 'Value';
-$string[PluginAuthShibboleth::IS_ADMIN_REGEX] = 'Is value a regex';
+$string['shibboleth_is_admin_field_title'] = 'Site Admin Membership';
+$string['shibboleth_is_admin_field'] = 'Shibboleth field';
+$string['shibboleth_is_admin_value'] = 'Value';
+$string['shibboleth_is_admin_regex'] = 'Is value a regex';
 
-$string[PluginAuthShibboleth::IS_STAFF_FIELD . '_title'] = 'Site Staff Membership';
-$string[PluginAuthShibboleth::IS_STAFF_FIELD] = 'Shibboleth field';
-$string[PluginAuthShibboleth::IS_STAFF_VALUE] = 'Value';
-$string[PluginAuthShibboleth::IS_STAFF_REGEX] = 'Is value a regex';
+$string['shibboleth_is_staff_field_title'] = 'Site Staff Membership';
+$string['shibboleth_is_staff_field'] = 'Shibboleth field';
+$string['shibboleth_is_staff_value'] = 'Value';
+$string['shibboleth_is_staff_regex'] = 'Is value a regex';
 
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_FIELD . '_title'] = 'Institution Admin Membership';
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_FIELD] = 'Shibboleth field';
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_VALUE] = 'Value';
-$string[PluginAuthShibboleth::INSTITUTION_IS_ADMIN_REGEX] = 'Is value a regex';
+$string['shibboleth_institution_is_admin_field_title'] = 'Institution Admin Membership';
+$string['shibboleth_institution_is_admin_field'] = 'Shibboleth field';
+$string['shibboleth_institution_is_admin_value'] = 'Value';
+$string['shibboleth_institution_is_admin_regex'] = 'Is value a regex';
 
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_FIELD . '_title'] = 'Institution Staff Membership';
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_FIELD] = 'Shibboleth field';
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_VALUE] = 'Value';
-$string[PluginAuthShibboleth::INSTITUTION_IS_STAFF_REGEX] = 'Is value a regex';
+$string['shibboleth_institution_is_staff_field_title'] = 'Institution Staff Membership';
+$string['shibboleth_institution_is_staff_field'] = 'Shibboleth field';
+$string['shibboleth_institution_is_staff_value'] = 'Value';
+$string['shibboleth_institution_is_staff_regex'] = 'Is value a regex';
 
-$string[PluginAuthShibboleth::INSTITUTION_FIELD . '_title'] = 'Institution Membership';
-$string[PluginAuthShibboleth::INSTITUTION_FIELD] = 'Shibboleth field';
-$string[PluginAuthShibboleth::INSTITUTION_VALUE] = 'Value';
-$string[PluginAuthShibboleth::INSTITUTION_REGEX] = 'Is value a regex';
+$string['shibboleth_institution_field_title'] = 'Institution Membership';
+$string['shibboleth_institution_field'] = 'Shibboleth field';
+$string['shibboleth_institution_value'] = 'Value';
+$string['shibboleth_institution_regex'] = 'Is value a regex';
 
-$string[PluginAuthShibboleth::UPDATE_USER_DATA] = 'Update user data';
-$string[PluginAuthShibboleth::REGISTRATION] = 'Registration';
-$string[PluginAuthShibboleth::NOTIFY_SITE_ADMIN] = 'Notify site administrators';
-$string[PluginAuthShibboleth::NOTIFY_INSTITUTION_ADMIN] = 'Notify institution administrators';
+$string['shibboleth_update_user_data'] = 'Update user data';
+$string['shibboleth_registration'] = 'Registration';
+$string['shibboleth_notify_site_administrators'] = 'Notify site administrators';
+$string['shibboleth_notify_institution_administrators'] = 'Notify institution administrators';
 
 $string['new_users'] = 'New users';
 
@@ -78,8 +77,4 @@ $string['empty_registration'] = 'Empty';
 $string['course_registration'] = 'Course';
 $string['account_inactive_message'] = 'Your account is not active';
 $string['site_closed'] = 'The site is closed';
-
-
-
-
 ?>

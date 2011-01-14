@@ -11,25 +11,26 @@
  */
 class AuthShibboleth extends Auth {
 
-	public function __construct($id = null) {
-		$this->type = 'shibboleth';
-		if($id){
-			$this->init($id);
-		}
-		return true;
-	}
+    public function __construct($id = null) {
+        $this->type = 'shibboleth';
+        if ($id) {
+            $this->init($id);
+        }
+        return true;
+    }
 
-	public function can_auto_create_users() {
-		return false; 
-	}
+    public function can_auto_create_users() {
+        return false;
+    }
 
-	public function request_user_authorise($attributes) {
-		return false;
-	}
+    public function request_user_authorise($attributes) {
+        return false;
+    }
 
-	public function logout() {
-	}
+    public function logout() {
+        
+    }
+
 }
-
 
 ?>
