@@ -148,9 +148,7 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::IS_ADMIN_REGEX => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::IS_ADMIN_REGEX, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => self::def(self::IS_ADMIN_REGEX, false),
                         'help' => true,
                     ),
@@ -179,9 +177,7 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::IS_STAFF_REGEX => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::IS_STAFF_REGEX, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => self::def(self::IS_STAFF_REGEX, false),
                         'help' => true,
                     )
@@ -202,9 +198,7 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::REGISTRATION => array(
                         'type' => 'select',
                         'title' => get_string(self::REGISTRATION, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'options' => $registration_options,
                         'defaultvalue' => self::def(self::REGISTRATION, true),
                         'help' => true,
@@ -212,18 +206,14 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::NOTIFY_SITE_ADMIN => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::NOTIFY_SITE_ADMIN, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => self::def(self::NOTIFY_SITE_ADMIN, true),
                         'help' => true,
                     ),
                     self::NOTIFY_INSTITUTION_ADMIN => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::NOTIFY_INSTITUTION_ADMIN, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => self::def(self::NOTIFY_INSTITUTION_ADMIN, true),
                         'help' => true,
                     )
@@ -232,9 +222,7 @@ class PluginAuthShibboleth extends PluginAuth {
             self::UPDATE_USER_DATA => array(
                 'type' => 'checkbox',
                 'title' => get_string(self::UPDATE_USER_DATA, 'auth.shibboleth'),
-                'rules' => array(
-                    'required' => false,
-                ),
+                'rules' => array(),
                 'defaultvalue' => self::def(self::UPDATE_USER_DATA, true),
                 'help' => true,
                 ));
@@ -314,9 +302,7 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::INSTITUTION_REGEX => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::INSTITUTION_REGEX, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => $current_config[self::INSTITUTION_REGEX],
                         'help' => true,
                     )
@@ -345,9 +331,7 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::INSTITUTION_IS_ADMIN_REGEX => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::INSTITUTION_IS_ADMIN_REGEX, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => $current_config[self::INSTITUTION_IS_ADMIN_REGEX],
                         'help' => true,
                     ),
@@ -376,9 +360,7 @@ class PluginAuthShibboleth extends PluginAuth {
                     self::INSTITUTION_IS_STAFF_REGEX => array(
                         'type' => 'checkbox',
                         'title' => get_string(self::INSTITUTION_IS_STAFF_REGEX, 'auth.shibboleth'),
-                        'rules' => array(
-                            'required' => false,
-                        ),
+                        'rules' => array(),
                         'defaultvalue' => $current_config[self::INSTITUTION_IS_STAFF_REGEX],
                         'help' => true,
                     )
