@@ -1,10 +1,10 @@
 <?php
 $host = $_SERVER['HTTP_HOST'];
 
-$sso = "https://$host/Shibboleth.sso/DS";
-$target = 'http%3A%2F%2F' . $host . '%2Fmahara%2Fauth%2Fshibboleth%2Flogin%2Flogin.php';
+$sso = "https://$host/Shibboleth.sso/Login";
+$target = urlencode (get_config('wwwroot') . 'auth/shibboleth/login/login.php');
 
-$entity_id = 'urn%3Amace%3Aswitch.ch%3ASWITCHaai%3Aunige.ch';
+$entity_id = urlencode('https://idp.unige.ch/idp/shibboleth');
 $unige = $sso . '?entityID=' . $entity_id . '&target=' . $target;
 
 $entity_id = 'https%3A%2F%2Faai.hcuge.ch%2Fidp%2Fshibboleth';
